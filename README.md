@@ -444,7 +444,6 @@ syncup_analysis/
 │   └── generate_data.py               # Synthetic data generation script
 │
 ├── analysis/                          # Analysis code
-│   ├── syncup_analysis.ipynb          # Jupyter notebook (full analysis)
 │   └── run_analysis.py                # Standalone Python script
 │
 └── dashboard/                         # Generated visualizations
