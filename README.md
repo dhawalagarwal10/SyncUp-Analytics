@@ -8,7 +8,7 @@
 
 **A comprehensive product analytics case study demonstrating funnel analysis, A/B testing, and cohort retention analysis**
 
-[View Analysis](#phase-1-funnel-analysis) • [View Notebooks](analysis/) • [View Visualizations](dashboard/)
+[View Analysis](#phase-1-funnel-analysis) • [View Notebooks](analysis/) • [View Visualizations](dashboard/) • [Visit Deployment](https://syncup-analytics.streamlit.app/)
 
 </div>
 
