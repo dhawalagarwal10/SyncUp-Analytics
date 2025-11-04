@@ -93,7 +93,6 @@ As a Product Analyst, my task was to:
 ### Visualization
 
 - **Matplotlib & Seaborn** - Chart creation and data visualization
-- **Jupyter Notebooks** - Interactive analysis and documentation
 
 ### Why This Stack?
 
@@ -400,7 +399,7 @@ The Day 14 and Day 30 data for Feb cohort shows lower retention due to **calenda
 python --version
 
 # Install required packages
-pip install pandas numpy matplotlib seaborn duckdb scipy jupyter
+pip install -r requirements.txt
 ```
 
 ### Generate Fresh Data
@@ -413,12 +412,9 @@ python generate_data.py
 ### Run Analysis
 
 ```bash
-# Option 1: Run the standalone script
+# Run the standalone script
 cd analysis
 python run_analysis.py
-
-# Option 2: Open Jupyter Notebook
-jupyter notebook analysis/syncup_analysis.ipynb
 ```
 
 ### View Results
@@ -427,7 +423,11 @@ jupyter notebook analysis/syncup_analysis.ipynb
 - Analysis outputs in console
 - Full notebook available for exploration
 
----
+### Launch Dashboard
+```bash
+# In the main project directory run
+python launch_dashboard.py
+```
 
 ## 📁 Project Structure
 
